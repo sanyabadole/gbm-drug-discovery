@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Environments
+.env
+envs/*.yml
+
+# Data (so we don't push raw or large processed data)
+data/raw/
+data/processed/*.h5ad
+data/processed/*.h5
+data/processed/*.rds
+
+# Results (large images should't be pushed to the repo, etc.)
+results/figures/*.tif
+results/figures/*.svg
+
+# OS files
+.DS_Store
